@@ -57,4 +57,5 @@ Contributions are welcome! Open issues or pull requests.
 Feel the gradient vibe with Circle Loaders! 🚀🔄
 
 Happy coding! 🌟
-![image](https://github.com/elijahgummer/coolGradient-circle-loader/assets/96103526/71252d3b-5016-4ff0-a347-2382d7567039)
+
+<br>![image](https://github.com/elijahgummer/coolGradient-circle-loader/assets/96103526/71252d3b-5016-4ff0-a347-2382d7567039)
