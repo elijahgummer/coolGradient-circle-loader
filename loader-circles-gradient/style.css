@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #212020;
+}
+
+.spinner {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3498db; /* Change background color to a shade of blue */
+    display: inline-block;
+    margin: 0 5px;
+    animation: loader 1.2s linear infinite;
+  }
+  
+  .circle1 {
+    animation-delay: 0.1s;
+  }
+  .circle2 {
+    animation-delay: 0.2s;
+  }
+  .circle3 {
+    animation-delay: 0.3s;
+  }
+  .circle4 {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes loader {
+    0% {
+      transform: scale(1);
+      background-color: #3498db; /* Change background color to a shade of blue */
+    }
+    50% {
+      transform: scale(1.5);
+      background-color: #2ecc71; /* Change background color to a shade of green */
+    }
+    100% {
+      transform: scale(1);
+      background-color: #3498db; /* Change background color back to blue */
+    }
+  }
+  
